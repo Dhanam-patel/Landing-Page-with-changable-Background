@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('1.gif');
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 13vh;
+}
+
+.OneTimeDisplay {
+    color: white;
+    background-color: black;
+    background-size: cover;
+    height: 50vh;
+    width: 40vw;
+    border: 10px groove white;
+    text-align: center;
+    position: relative;
+    left: 29vw;
+    top: 20vh;
+}
+
+.change {
+    height: 8vh;
+    width: 4vw;
+    border: 2px solid black;
+    opacity: 0.4;
+    border-radius: 10px;
+    transition: background-color 0.12s ease-in-out, color 0.12s ease-in-out;
+    font-size: 6vh;
+}
+
+.change:hover {
+    background-color: black;
+    color: white;
+}
+
+.controls {
+    text-align: end;
+    display: none;
+    margin: 10px 0 0 0;
+    position: relative;
+    left: 19vw;
+}
+
+.attention {
+    font-size: 6vh;
+    font-family: 'AWAKENNING', sans-serif;
+}
+
+.container {
+    margin: 10px;
+    font-size: 4.5vh;
+    font-family: 'Frozito', sans-serif;
+}
+
+#OkButton {
+    background-color: black;
+    border: 7px groove white;
+    width: 7vw;
+    height: 7vh;
+    color: white;
+    margin: 1vh 0 0 0;
+    font-size: 3vh;
+    font-family: 'Frozito', sans-serif;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+#OkButton:hover {
+    color: black;
+    background-color: white;
+}
+
+.LoginContainer {
+    border: 2px solid white;
+    height: 50vh;
+    width: 30vw;
+    background-color:transparent;
+    backdrop-filter: blur(35px);
+    text-align: center;
+    font-size: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    display: none;
+    position: relative;
+    left: 35vw;
+    top: 20vh;
+    box-shadow: 0px 0px 5px white;
+}
+
+.LoginContainer .line1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-style: normal;
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 4vh 0 0 0;
+}
+.LoginContainer .line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.LoginContainer .line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.LoginContainer .line4 {
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+.LoginContainer .line5 {
+    margin-top: 4vh;
+    text-align: center;
+} 
+.LoginContainer .line6 {
+    margin-top: 3vh;
+    font-size: 2vh;
+    color: white;
+}
+.LoginContainer a{
+    color: white;
+}
+.LoginContainer .line5 #log{
+    width: 23.5vw;
+    height: 5vh;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 3vh;
+    transition: background-color 0.15s ease-in-out,color 0.15s ease-in-out;
+}
+.LoginContainer .line5 #log:hover{
+    color: black;
+    background-color: white;
+}
+.LoginContainer .symbol {
+    position: relative;
+    top: 1vh;
+}
+.LoginContainer .inpt{
+    color: white;
+    height: 4vh;
+    width: 22vw;
+    border-radius: 50px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+}
+.LoginContainer .inpt::placeholder{
+    color: white;
+}
+.min{
+    display: inline-block;
+    position: relative;
+    right: 4.5vw;
+}
+#checkbox{
+    display: inline-block;
+}
+#remember{
+    display: inline-block;
+    color: white;
+}
+#pass {
+    display: inline-block;
+    position: relative;
+    left: 2.7vw;
+}
